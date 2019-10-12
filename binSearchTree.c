@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 void insert();
+void delete();
 
 struct node{
     struct node *left;
@@ -44,4 +45,8 @@ void insert(){
             parent->left = newnode;
         }
     }
+}
+
+void delete(){
+    
 }
